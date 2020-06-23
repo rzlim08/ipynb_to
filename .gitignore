@@ -1,3 +1,7 @@
 *.ipynb*
 venv/
 fastai*
+__pycache__
+.idea*
+build/
+dist/
