@@ -55,7 +55,7 @@ class MainParser(Parser):
 class FireParser(Parser):
     def __init__(self, import_parser):
         super().__init__()
-        self.caller = re.compile(r"# *fire (.*)")
+        self.caller = re.compile(r"# *fire(.*)")
         self.fire = None
         self.import_parser = import_parser
         
