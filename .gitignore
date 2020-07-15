@@ -1,3 +1,8 @@
-*.ipynb*
+.ipynb_checkpoints/
+Untitled*
 venv/
 fastai*
+__pycache__
+.idea*
+build/
+dist/
